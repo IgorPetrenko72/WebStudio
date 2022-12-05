@@ -1,0 +1,16 @@
+.join {
+    margin-bottom: 60px;
+
+@media (min-width: 1200px) {
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+}
+
+.join__title {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    color: var(--color-btn);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
