@@ -811,19 +811,16 @@ address {
 
 .project {
   display: block;
-  width: 450px;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .project {
-    width: 354px;
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media (min-width: 1200px) {
   .project {
-    width: 370px;
     margin-bottom: 0px;
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
