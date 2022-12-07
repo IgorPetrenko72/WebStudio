@@ -8,6 +8,9 @@
     color: var(--color-btn);
     margin-bottom: 20px;
     text-transform: uppercase;
+    @media (min-width: 1200px) {
+            text-align: left;
+        }
 }
 
 .sign__form {

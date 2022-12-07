@@ -1,73 +1,69 @@
 .team {
-    background-color: var(--filter-gd-btn);
+  background-color: var(--filter-gd-btn);
 }
 
 .team__title {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 30px;
 
-    @media (min-width: 1200px) {
-            font-size: 36px;
-            margin-bottom: 50px;
-    }
+  @media (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .team__list {
-    display: block;
-    
-        @media (min-width: 768px) {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-    }
-    
+  display: block;
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
 .name {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    display: block;
-    width: 450px;
-    margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 
-    @media (min-width: 768px) {
-        width: 354px;
-        margin-bottom: 0px;
-        flex-basis: calc((100% - 30px) / 2);
-    }
+  @media (min-width: 768px) {
+    margin-bottom: 0px;
+    flex-basis: calc((100% - 30px) / 2);
+  }
 
-    @media (min-width: 1200px) {
-        width: 270px;
-        align-items: flex-start;
-        flex-basis: calc((100% - 90px) / 4);
-    }
+  @media (min-width: 1200px) {
+    align-items: flex-start;
+    flex-basis: calc((100% - 90px) / 4);
+  }
 
-    &:last-child {
-        margin-bottom: 0px;
-    }
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .name__card {
-    padding: 30px 0;
-    text-align: center;
-    width: 450px;
-    background: var(--color-btn);
-    width: 100%;
+  padding: 30px 0;
+  text-align: center;
+
+  background: var(--color-btn);
+  width: 100%;
 }
 
 .name__person {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: calc(19 / 16);
-    margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(19 / 16);
+  margin-bottom: 10px;
 }
 
 .name__lead {
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  margin-bottom: 16px;
 }

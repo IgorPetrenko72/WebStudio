@@ -21,7 +21,19 @@
     position: absolute;
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
+    @media screen and (max-widht: 1199px) {
+        width: 95%;
+        max-width: 450px;
+        height: 95%;
+        max-height: 609px;
+        overflow: scroll;        
+    }
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 581px;        
+    }
     width: 450px;
     max-height: 609px;
     height: 100%;
